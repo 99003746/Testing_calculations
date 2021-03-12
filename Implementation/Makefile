@@ -5,13 +5,12 @@ PROJECT_NAME = Calculator
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
+SRC = fact_log.c\
 src/calculator_operations.c
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c\
-unity/unity.c\
+TEST_SRC = test_cases/test_fact.c\
+unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
