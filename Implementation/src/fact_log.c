@@ -1,5 +1,3 @@
-
-
 #include"fact_log.h"
 
           //Logarithm Product Function
@@ -8,19 +6,19 @@ float product(float a, float b)
 {
     if(a==0)
     {
-      //  printf("ERROR");
+     
       return 0;
     }
     else if(b==0)
     {
-       // printf("ERROR");
+      
        return 0;
     }
     else
     {
           double result;
-          result=log(a)+log(b);
-        //  printf("result of product is=%d ",result); 
+          result=log10(a)+log10(b);
+           
         return result;
     }
 }
@@ -31,21 +29,21 @@ float ratios(float a, float b)
 {
     if(a==0)
     {
-       // printf("ERROR");
+      
        return 0;
     }
     else if(b==0)
     {
-     //   printf("ERROR");
+    
      return 0;
     }
     
      else
     {
         double result;
-        result=log(a)-log(b);
-       return result;
-       // printf("result of ratios is=%d ",result); 
+        result=log10(a)-log10(b);
+        return result;
+      
     }
 }
               //Factorial Function
@@ -57,9 +55,13 @@ int factorial(int n)
     if(n==1)
     {
 	
-       return 0;
-       // printf("Factorial of a number is 1");
+       return 1;
+     
     
+    }
+    else if(n==0)
+    {
+        return 1;
     }
     else
     {
@@ -69,21 +71,10 @@ int factorial(int n)
         fact=fact*i;
     }
         return fact;
-        // printf("Factorial of a number is= %d",fact);
+        
     }
 
 }
-                    // Main Function
+                   
 
-/* int fact_input(void);
-{
 
-    int num;
-    
-    // Passing parameters 
-    printf("Enter the number for factorial : ");
-    scanf(" %d",num);
-    factorial(num);
-
-    return 0; 
-}   */
