@@ -12,13 +12,13 @@ src/fact_log.c\
 # All test source files
 TEST_SRC = test_cases/test_fact.c\
 src/fact_log.c\
-Unity/unity.c
+unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC	= -Iinc\
--IUnity\
+-Iunity\
 
 #Library Inlcudes
 #if working with CUnit 
