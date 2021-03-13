@@ -5,3 +5,5 @@
 [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003746/Testing_calculations/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003746/Testing_calculations/actions/workflows/CodeQuality_Dynamic.yml)
 
 [![Code Quality - Static Code - Cppcheck](https://github.com/99003746/Testing_calculations/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003746/Testing_calculations/actions/workflows/cppcheck.yml)
+
+[![Code Quality - Static Code - Cppcheck](https://github.com/99003746/Testing_calculations/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003746/Testing_calculations/actions/workflows/cppcheck.yml)
