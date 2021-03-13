@@ -6,11 +6,11 @@ BUILD = build
 
 # All source code files
 SRC = project_main.c\
-src/fact_log.c\
+src/fact_log.c
 
 
 # All test source files
-TEST_SRC = test_cases/test_fact.c\
+TEST_SRC = test/test_fact.c\
 src/fact_log.c\
 unity/unity.c
 
